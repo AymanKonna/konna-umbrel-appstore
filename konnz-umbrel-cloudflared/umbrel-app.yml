@@ -1,5 +1,5 @@
 manifestVersion: 1
-id: big-bear-umbrel-cloudflared
+id: konnz-umbrel-cloudflared
 name: Cloudflared
 category: Networking
 version: "2023.7.3"

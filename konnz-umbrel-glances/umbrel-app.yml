@@ -1,5 +1,5 @@
 manifestVersion: 1
-id: big-bear-umbrel-glances
+id: konnz-umbrel-glances
 name: Glances
 category: Developer Tools
 version: "4.3.0.8-full"
