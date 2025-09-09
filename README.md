@@ -3,29 +3,45 @@ This repository contains the Umbrel App Store. The app store here is not maintai
 
 ## CLI HOW-TO
 
-**To add an app store**
+<table>
+    <tr>
+        <td>Purpose</td>
+        <td>Command</td>
+</td>
+</tr>
+<tr>
+<td>Add An App Store</td>
+<td>
+  
+    sudo ~/umbrel/scripts/repo add https://github.com/aymankonna/konnz-umbrel.git
+        
+</td>
+</tr>
+<tr>
+<td>Update An App Store</td>
+<td>
 
-```
-sudo ~/umbrel/scripts/repo add https://github.com/aymankonna/konnz-umbrel.git
-```
+    sudo ~/umbrel/scripts/repo update
+      
+</td>
+</tr>
+<tr>
+        <td>Install An App From The App Store</td>
+<td>
 
-**To update an app store**
+    sudo ~/umbrel/scripts/app install konnz-umbrel-example-app
+      
+</td>
+</tr>
+<tr>
+<td>Remove An App Store</td>
+<td>
 
-```
-sudo ~/umbrel/scripts/repo update
-```
-
-**To install an app from the app store**
-
-```
-sudo ~/umbrel/scripts/app install konnz-umbrel-example-app
-```
-
-**To remove an app store**
-
-```
-sudo ~/umbrel/scripts/repo remove https://github.com/aymankonna/konnz-umbrel.git
-```
+    sudo ~/umbrel/scripts/repo remove https://git`hub.com/aymankonna/konnz-umbrel.git
+            
+</td>
+</tr>
+</table>
 
 ### Thanks & Credits
 
