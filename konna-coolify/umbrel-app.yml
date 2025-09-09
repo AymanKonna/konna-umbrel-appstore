@@ -5,7 +5,6 @@ tagline: Self-hosting powerhouse. Managing apps, databases and network via WebUI
 icon: https://cdn.jsdelivr.net/gh/AymanKonna/konna-umbrel-appstore@main/konna-coolify/coolify-icon-min.jpg
 category: Networking
 version: "4.0.0"
-port: 4000
 description: >-
   Coolify is an open-source, self-hostable Heroku/Netlify alternative that
   lets you deploy apps, databases and services on your own infrastructure.
@@ -15,7 +14,7 @@ description: >-
 developer: CoolLabs
 website: https://coolify.io/
 submitter: Konna
-submission: https://github.com/AymanKonna/konna-umbrel-appstore.git
+submission: https://github.com/AymanKonna/konna-umbrel-appstore/commit/de7c482db5d88d52287b6f3cd5ee1858bde2db26
 repo: https://github.com/coollabsio/coolify
 support: https://discord.gg/coollabs
 gallery:
