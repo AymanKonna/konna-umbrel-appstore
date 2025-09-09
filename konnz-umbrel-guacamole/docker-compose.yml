@@ -3,7 +3,7 @@ version: "3.7"
 services:
   app_proxy:
     environment:
-      APP_HOST: big-bear-umbrel-guacamole_frontend_1
+      APP_HOST: konnz-umbrel-guacamole_frontend_1
       APP_PORT: 8080
 
   frontend:

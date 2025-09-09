@@ -6,7 +6,7 @@ services:
   app_proxy:
     # Set environment variables for app_proxy service
     environment:
-      APP_HOST: big-bear-umbrel-glances_server_1 # Hostname of the application
+      APP_HOST: konnz-umbrel-glances_server_1 # Hostname of the application
       APP_PORT: 61208 # Port number of the application
       PROXY_AUTH_ADD: "false" # Whether to add authentication for the proxy
 

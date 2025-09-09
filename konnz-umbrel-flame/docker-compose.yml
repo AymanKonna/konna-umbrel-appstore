@@ -3,7 +3,7 @@ version: '3.6'
 services:
   app_proxy:
     environment:
-      APP_HOST: big-bear-umbrel-flame_server_1
+      APP_HOST: konnz-umbrel-flame_server_1
       APP_PORT: 5005
 
   server:
