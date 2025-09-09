@@ -1,5 +1,5 @@
 manifestVersion: 1
-id: big-bear-umbrel-ghost
+id: konna-umbrel-ghost
 name: Ghost
 category: Developer Tools
 version: "6.0.4-alpine"
