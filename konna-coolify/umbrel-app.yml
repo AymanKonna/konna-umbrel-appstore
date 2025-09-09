@@ -1,0 +1,45 @@
+manifestVersion: 1
+id: sparkles-coolify
+name: Coolify
+tagline: Self-hosting powerhouse. Managing apps, databases and network via WebUI. 
+icon: https://cdn.jsdelivr.net/gh/AymanKonna/konna-umbrel-appstore@main/konna-coolify/coolify-icon-min.jpg
+category: Networking
+version: "4.0.0"
+port: 4000
+description: >-
+  Coolify is an open-source, self-hostable Heroku/Netlify alternative that
+  lets you deploy apps, databases and services on your own infrastructure.
+  This Umbrel community package runs Coolify isolated from Umbrel's Docker
+  using a sidecar Docker-in-Docker (DinD), so Coolify will not control the
+  Umbrel host engine.
+developer: CoolLabs
+website: https://coolify.io/
+submitter: Konna
+submission: https://github.com/AymanKonna/konna-umbrel-appstore.git
+repo: https://github.com/coollabsio/coolify
+support: https://discord.gg/coollabs
+gallery:
+  - https://cdn.jsdelivr.net/gh/AymanKonna/konna-umbrel-appstore@main/konna-coolify/coolify-00-min.jpg
+  - https://cdn.jsdelivr.net/gh/AymanKonna/konna-umbrel-appstore@main/konna-coolify/coolify-01-min.jpg
+  - https://cdn.jsdelivr.net/gh/AymanKonna/konna-umbrel-appstore@main/konna-coolify/coolify-02-min.jpg
+  - https://cdn.jsdelivr.net/gh/AymanKonna/konna-umbrel-appstore@main/konna-coolify/coolify-03-min.jpg
+  - https://cdn.jsdelivr.net/gh/AymanKonna/konna-umbrel-appstore@main/konna-coolify/coolify-04-min.jpg
+releaseNotes: >-
+  Initial Umbrel community package. Includes isolated Docker-in-Docker and Postgres/Redis dependencies.
+dependencies: []
+# Optional, but helps Umbrel show a friendly URL
+port: 8000
+# The app runs on clearnet by default (Umbrel handles reverse proxy)
+torOnly: false
+# Environment variables exposed to docker-compose via Umbrel
+# Users can override these from the Umbrel UI if desired
+env:
+  POSTGRES_PASSWORD:
+    description: Password for the Coolify Postgres database user
+    default: "96b1d7d9313964d2447788534861cf85"
+  APP_DOMAIN:
+    description: Your primary domain for Coolify (optional)
+    default: ""
+path: ""
+defaultUsername: "Konna"
+defaultPassword: "LetMEInnCoolify"
